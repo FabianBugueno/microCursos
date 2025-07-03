@@ -6,3 +6,4 @@ services:
     ports:
       - "8081:8081"
     command: ["java","-jar","app.jar"]
+    restart: always
